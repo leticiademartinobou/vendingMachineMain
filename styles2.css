@@ -1,0 +1,30 @@
+.main {
+    /* width: 1024px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    /* gap: 25px; */
+  }
+  
+  .one,
+  .two,
+  .three {
+    border: 1px solid #444;
+    margin: 5px;
+  }
+  .three {
+    position: absolute;
+    bottom: 75%; 
+    width: 1024px;
+  }
+
+  
+  .right {
+    height: 100%;
+  }
